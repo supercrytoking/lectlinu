@@ -1,0 +1,35 @@
+GNU/Linux and Unix tutorial -- part 1, the basics
+Friday, October 4, 2019
+1:00 PM  3:00 PM
+24-213
+(map)
+Google Calendar  ICS
+
+
+Come join us for two 1-2hr long tutorial sessions on Linux operating system. We will try to cover things starting from the rudimentary basics, but will also touch upon more advanced, hackier aspects of linux. For this tutorial we will be working off of Ubuntu 14.04 (LTS), however the material is distro non-specific.
+
+Speaker: Areg Danagoulian, aregjan@mit.edu.
+
+Location: 24-115
+
+Time: 13:00-15:00, October 4th, 2019
+
+Requirements:
+
+For the tutorial everyone needs to just have a laptop running ubuntu or Darwin (Mac OS X) and know how to open a terminal. The MS Windows users have a few alternatives:
+
+Easiest: install PUTY and just login to your account on athena.dialup.mit.edu
+Easy: get ubuntu working inside a (free) virtual box. If you install virtual box (easy), I'll give you an ubuntu image to load. (I'd recommend Mac users to do this as well -- the differences between Darwin and linux can be significant, and I won't have the time to go over both). If you want to keep using your MS windows but be able to run linux locally, this is probably the best solution.
+Harder: make your laptop dual boot. I have a USB flash drive with an ubuntu image, I can show you how to do this.
+
+Instructions for the course
+open a terminal (or ssh to athena.dialup.mit.edu)
+In your terminal do the following:
+$ wget https://www.dropbox.com/s/s3wskq5n08fi7sr/Linux_tutorial.tar
+this will download a tar ball with the course material
+Next, untar the tarball:
+$ tar xvf Linux_tutorial.tar
+$ cd Linux_tutorial
+You are ready to start.
+
+
